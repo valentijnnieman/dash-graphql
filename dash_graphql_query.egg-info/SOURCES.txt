@@ -1,0 +1,7 @@
+README.md
+setup.py
+dash_graphql_query/__init__.py
+dash_graphql_query.egg-info/PKG-INFO
+dash_graphql_query.egg-info/SOURCES.txt
+dash_graphql_query.egg-info/dependency_links.txt
+dash_graphql_query.egg-info/top_level.txt

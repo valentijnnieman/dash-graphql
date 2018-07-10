@@ -1,0 +1,114 @@
+{
+  "src/components/Mutation.js": {
+    "description": "",
+    "displayName": "Mutation",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The id of the component in Dash"
+      },
+      "endpoint": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The URL of the server's endpoint"
+      },
+      "mutation": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The GraphQL query you want to sent to the endpoint"
+      },
+      "variables": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "The variables for the GraphQL query"
+      },
+      "value": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "The returned data from the GraphQL server"
+      },
+      "children": {
+        "type": {
+          "name": "any"
+        },
+        "required": false,
+        "description": ""
+      },
+      "setProps": {
+        "type": {
+          "name": "any"
+        },
+        "required": false,
+        "description": "Dash provided callback for updating props"
+      }
+    }
+  },
+  "src/components/Query.js": {
+    "description": "",
+    "displayName": "Query",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The id of the component in Dash"
+      },
+      "endpoint": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The URL of the server's endpoint"
+      },
+      "query": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The GraphQL query you want to sent to the endpoint"
+      },
+      "variables": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "The variables for the GraphQL query"
+      },
+      "value": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "The returned data from the GraphQL server"
+      },
+      "children": {
+        "type": {
+          "name": "any"
+        },
+        "required": false,
+        "description": ""
+      },
+      "setProps": {
+        "type": {
+          "name": "any"
+        },
+        "required": false,
+        "description": "Dash provided callback for updating props"
+      }
+    }
+  }
+}
